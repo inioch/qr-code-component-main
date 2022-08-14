@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+}
+
+.pColor {
+    color: var(--Lightgray);
+}
+
+.bgColor {
+    background-color: var(--Lightgray);
+}
+
+.round {
+    border-radius: 25px;
+}
